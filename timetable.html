@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wajid Ali | Timetable</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+           <img src="images/logo.png" alt="Wajid Ali image" class="logo">
+          <ul class="links">
+              <li>
+                  <a href="index.html" class="home">Home</a>
+              </li>
+              <li>
+                  <a href="Internships.html" class="internships">Internships</a>
+              </li>
+              <li>
+                  <a href="TimeTable.html" class="timetable">TimeTable</a>
+              </li>
+              <li>
+                  <a href="AlmaMater.html" class="almamater">AlmaMater</a>
+              </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="timetable-main">
+        <div class="title-div">
+            <p><em>One reason so few of us achieve what we
+                 truly want is that we never direct our focus;
+                  we never concentrate our power. Most people 
+                  dabble their way through life, never deciding 
+                  to master anything in particular.</em></p>
+            <h1>My Schedule</h1>
+        </div>
+        <section class="timetable">
+            <div class="monday day">
+                <div class="cell" id="monday">
+                    <p>Monday</p>
+                </div>
+                <div class="cell">
+                    <p>DB Lab</p>
+                    <p>11:25-2:10</p>
+                </div>
+                <div class="cell">
+                    <p>AI</p>
+                    <p>3:55-5:15</p>
+                </div>
+                
+                    <button id="monday-btn" class="add-btn">Add</button>
+                
+            </div>
+            <div class="tuesday day">
+                <div class="cell" id="tuesday">
+                    <p>Tuesday</p>
+                </div>
+                <div class="cell">
+                    <p>OS</p>
+                    <p>8:30-9:50</p>
+                </div>
+                <div class="cell">
+                    <p>PM</p>
+                    <p>10:00-11:20</p>
+                </div>
+                <div class="cell">
+                    <p>WE</p>
+                    <p>11:30-12:50</p>
+                </div>
+                <div class="cell">
+                    <p>IS</p>
+                    <p>1:00-2:20</p>
+                </div>
+                
+                    <button id="tuesday-btn" class="add-btn">Add</button>
+                
+            </div>
+            <div class="wednesday day">
+                <div class="cell" id="wednesday">
+                    <p>Wednesday</p> 
+                </div>
+                <div class="cell">
+                    <p>OS Lab</p>
+                    <p>8:30-12:15</p>
+                </div>
+                <div class="cell">
+                    <p>WE Lab</p>
+                    <p>11:25-2:30</p>
+                </div>
+                <div class="cell">
+                    <p>AI</p>
+                    <p>3:55-5:15</p>
+                </div>
+                    <button id="wednesday-btn" class="add-btn">Add</button>
+            </div>
+            <div class="thursday day">
+                <div class="cell" id="thursday">
+                    <p>Thursday</p>
+                </div>
+                <div class="cell">
+                    <p>OS</p>
+                    <p>8:30-9:50</p>
+                </div>
+                <div class="cell">
+                    <p>PM</p>
+                    <p>10:00-11:20</p>
+                </div>
+                <div class="cell">
+                    <p>WE</p> 
+                    <p>11:30-12:50</p>
+                </div>
+                <div class="cell">
+                    <p>IS</p> 
+                    <p>1:00-2:20</p>
+                </div>
+                    <button id="thursday-btn" class="add-btn">Add</button>
+            </div>
+        </section>
+
+
+        <section>
+            <form>
+                <div class="inputBox">
+                    <label for="userName">Username</label>
+                    <input type="text" name="userName" id="userName" placeholder="type your username" required/>
+                </div>
+                <div class="inputBox">
+                    <label for="userPassword">Password</label>
+                    <input type="password" name="userPassword" id="userPassword" placeholder="type your password"
+                           required/>
+                </div>
+                <div class="inputBox">
+                    <label for="userConfirmPassword">Confirm Password</label>
+                    <input type="password" name="userPassword" id="userConfirmPassword" placeholder="confirm your password"
+                           required/>
+                </div>
+                <button type="submit" name="" style="float: left;">Submit</button>
+            </form>
+        </section>
+      </main>
+</body>
+</html>
